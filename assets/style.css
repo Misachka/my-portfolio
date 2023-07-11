@@ -41,7 +41,7 @@
     color: #ffffff;
   
 }
-a {
+.header nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -57,12 +57,26 @@ p {
     background-size: cover;
     background-position: center;
 }
-main {
-    /* Turns this element into a flexbox */
+
+
+
+  article {
     display: flex;
-    /* Forces elements to the next line if they don't fit */
-    flex-wrap: wrap;
-    margin-top: 2%;
+  }
+  article h1 {
+    width: 200px;
+    padding: 20px; 
+    border-right: 1px black solid;
+  } 
+
+  article h2 {
+    width: 200px;
+    padding: 20px; 
+    border-right: 1px black solid;
+  } 
+
+  article div {
+    padding: 20px;
   }
 
 .card {
@@ -70,7 +84,7 @@ main {
     /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
     flex: 1 0 200px;
     padding: 10px;
-    text-align: center;
+ 
     border-style: solid;
     border-width: 1px;
   }
@@ -78,6 +92,19 @@ main {
     opacity: 0.7; 
   } 
   
-  img:hover { 
+:hover { 
     opacity: 1; 
+  }
+
+  .rowOnePortfolio {
+    display: flex;
+    align-content: space-between
+  }
+  .rowtwoPortfolio {
+    display: flex;
+    align-content: space-between
+  }
+
+  footer ul li a {
+    color: black;
   }
