@@ -17,7 +17,7 @@ On the bottom right side of footer navigation can be found information on how to
 
 Once page is resized, smaller images will stack up in a column.
 
-Website URL:
+Website URL: https://misachka.github.io/my-portfolio/
 
 ![Alt text](image.png)
 
