@@ -57,7 +57,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* defies positioning and styling for body headers */
   article {
     display: flex;
     justify-content: space-around
@@ -93,6 +93,7 @@ p {
     border-style: solid;
     border-width: 1px;
   }
+  /* adds hover properties, images are darker, once hovered they light up */
   img { 
    opacity: 0.7; 
    border: solid black;
@@ -101,7 +102,7 @@ p {
 :hover { 
     opacity: 1; 
   }
-
+/* Used flex properties to group and stack image boxes */
   .rowOnePortfolio {
     display: flex;
     align-content: space-between
@@ -110,13 +111,12 @@ p {
     display: flex;
     align-content: space-between
   }
-
+  .images {
+    flex-direction: column;
+  }
   footer ul li a {
     color: black;
   }
-.images {
-  flex-direction: column;
-}
 
 footer h2 {
   display: flex;
@@ -127,6 +127,7 @@ footer h2 {
 .contact {
   display: flex;
 }
+/* Used inline properties to display footer in a row */
 footer div ul li {
   display: inline;
   font-size: 25px;
@@ -134,8 +135,8 @@ footer div ul li {
   text-align: center;
   margin-left: 100px;
 }
+  /* Used flex-direction to stack images once width reaches 768px */
 @media screen and (max-width: 768px) {
-  /* Use flex-direction to stack the navbar, sidebar, and body */
   article,
   .rowOnePortfolio {
     flex-direction: column;
