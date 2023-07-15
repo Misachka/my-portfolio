@@ -59,12 +59,13 @@ p {
 }
 
 
-
   article {
     display: flex;
+    justify-content: space-around
   }
   article h1 {
-    width: 200px;
+    display: flex;
+    width: 100px;
     padding: 20px; 
     border-right: 1px black solid;
   } 
@@ -84,12 +85,12 @@ p {
     /* A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space */
     flex: 1 0 200px;
     padding: 10px;
- 
     border-style: solid;
     border-width: 1px;
   }
   img { 
-    opacity: 0.7; 
+   opacity: 0.7; 
+   border: solid black;
   } 
   
 :hover { 
@@ -110,4 +111,14 @@ p {
   }
 .images {
   flex-direction: column;
+}
+
+footer h3 {
+  display: flex;
+  width: 100px;
+  padding: 20px; 
+  border-right: 1px black solid;
+}
+.contact {
+  display: flex;
 }
