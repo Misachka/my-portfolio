@@ -24,7 +24,8 @@ Website URL:
 
 ## Credits
 
-N/A
+Used assigment 1 for code layout example. 
+Used code for Hover: https://stackoverflow.com/questions/15275344/light-up-image-on-hover
 
 ## License
 
