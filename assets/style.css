@@ -64,15 +64,21 @@ p {
   }
   article h1 {
     display: flex;
-    width: 100px;
-    padding: 20px; 
-    border-right: 1px black solid;
+    justify-content: flex-end;
+    margin-right: 230px;
+  
   } 
+  .workheader {
+    border-right: 5px solid black;
+    width: 55px;
+    float: left;
+    padding: 20px;
+  }
 
   article h2 {
-    width: 200px;
+    width: 300px;
     padding: 20px; 
-    border-right: 1px black solid;
+    border-right: 5px black solid;
   } 
 
   article div {
@@ -114,9 +120,9 @@ p {
 
 footer h2 {
   display: flex;
-  width: 150px;
+  width: 130px;
   padding: 20px; 
-  border-right: 1px black solid;
+  border-right: 5px black solid;
 }
 .contact {
   display: flex;
