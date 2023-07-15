@@ -134,3 +134,14 @@ footer div ul li {
   text-align: center;
   margin-left: 100px;
 }
+@media screen and (max-width: 768px) {
+  /* Use flex-direction to stack the navbar, sidebar, and body */
+  article,
+  .rowOnePortfolio {
+    flex-direction: column;
+  }
+  article,
+  .rowtwoPortfolio {
+    flex-direction: column;
+  }
+}
